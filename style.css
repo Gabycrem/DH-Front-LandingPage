@@ -1,0 +1,221 @@
+/* FUENTES IMPORTADAS PARA EL PROYECTO 
+
+    font-family: "Courier Prime", monospace;
+    font-family: "Roboto Mono", monospace;
+
+*/
+/* NORMALIZANDO */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    font-family: "Roboto Mono", monospace; 
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 3%;
+    background-color: transparent;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav a{
+    margin-left: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .5s ease;
+}
+
+.nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+#menu-icon {
+    display: none;
+}
+
+#menu-icon {
+    font-size: 2rem;
+    z-index: 101;
+    cursor: pointer;
+}
+
+#menu-toggle{
+    display: none;
+}
+
+.menu-icon-action{
+    display: none;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #4a3c5c 0%, #5a3f70 25%, #1a0d1f 75%);
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 8%;
+}
+
+.hero-text h1{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.hero-text h2{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.hero-text h3{
+    font-family: "Courier Prime", monospace;
+    font-size: 50px;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.hero-text h4{
+    font-family: "Courier Prime", monospace;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.hero-text p{
+    font-size: 80%;
+    line-height: 1.9;
+    margin-bottom: 40px;
+}
+
+.hero-text a{
+    display: inline-block;
+    background-color: #4a3c5c;
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    line-height: 1.4;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+
+.hero-text a:hover{
+    border: 1px solid white;
+    background-color: transparent;
+    transform:translateX(5px);
+
+}
+
+.hero-text i{
+    align-items: center;
+    margin-right: 10px;
+}
+
+.hero-img img{
+    width: 400px;
+    border: 8px solid #5a3f70;
+    border-radius: 50%;
+    margin: 15% 0 0 15%;
+    height: auto;
+    transition: width 5s, opacity 5s linear;
+}
+
+.hero-img img:hover{
+    width: 450px;
+    opacity: 0.6;
+}
+
+.icons{
+    position: absolute;
+    top: 50vh;
+    padding: 0 3%;
+    transform: translateY(-60px); 
+}
+
+.icons i{
+    display: block;
+    margin: 26px 0;
+    font-size: 1.5rem;
+    transition: all .5s ease;
+}
+
+.icons i:hover{
+    color: #4a3c5c;
+    transform: translateY(-5px);
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 7%;
+    right: 5%;
+}
+
+.scroll-down i{
+    display: block;
+    font-size: 2rem;
+    padding: 12px;
+    background-color: #1a0d1f;
+    border-radius: 50%;
+    transition: all .5s ease;
+}
+
+.scroll-down i:hover{
+    transform: scale(1.2);
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+@media(max-width: 992px){
+    section{
+        padding: 0 2%;
+        transition: .2s;
+    }
+
+    
+
+    .hero-img img{
+        width: 80%;
+        margin: 10% 0 0 10%;
+    }
+     .scroll-down{
+        display: none;
+     }
+}
