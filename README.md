@@ -1,7 +1,10 @@
 # Mi Landing Page - GABYCREM
 
-Este proyecto es una **landing page personal** creada con **HTML y CSS**, donde muestro mi perfil como **Frontend Developer**.  
-El diseño incluye un **hero con presentación personal**, un menú de navegación responsive y enlaces a redes de contacto.
+# Proyecto Final - Landing Page Personal
+
+Esta landing page está desarrollada con **HTML y CSS** como parte del cierre de la etapa inicial de Frontend del trayecto formativo en **Programación Web Full Stack** de **Digital House**, donde estoy becada.  
+
+El diseño presenta mi perfil como **Frontend Developer** a través de un hero personal, un menú de navegación responsive y enlaces a mis redes de contacto.
 
 ---
 
@@ -36,8 +39,8 @@ El diseño incluye un **hero con presentación personal**, un menú de navegaci�
 ```
 
 ## Vista previa
-[Un vistaso](./assets/img/MyLandingPage.png)
-
+![Vista previa de mi landing page](./assets/img/MyLandingPage.png)
+<img src="./assets/img/MyLandingPage.png" alt="Vista previa de mi landing page" width="600" height="auto">
 ---
 
 ## Demo en línea
