@@ -1,4 +1,4 @@
-# Mi Landing Page - GABYCREM
+ <h1 align="center">Mi Landing Page - GABYCREM</h1>
 
 # Proyecto Final - Landing Page Personal
 
@@ -6,7 +6,7 @@ Esta landing page está desarrollada con **HTML y CSS** como parte del cierre de
 
 El diseño presenta mi perfil como **Frontend Developer** a través de un hero personal, un menú de navegación responsive y enlaces a mis redes de contacto.
 
----
+
 
 ## Características principales
 - Menú de navegación responsive con el *checkbox hack* (sin necesidad de JavaScript).  
@@ -15,7 +15,7 @@ El diseño presenta mi perfil como **Frontend Developer** a través de un hero p
 - Efectos de hover en botones, iconos e imagen de perfil.  
 - Diseño con **gradiente de fondo** y tipografías personalizadas (Google Fonts).  
 
----
+
 
 ## Tecnologías utilizadas
 - **HTML5**  
@@ -23,7 +23,7 @@ El diseño presenta mi perfil como **Frontend Developer** a través de un hero p
 - **Boxicons & Remixicon** (para iconos)  
 - **Google Fonts** (Courier Prime y Roboto Mono)  
 
----
+
 
 ## Estructura del proyecto
 
@@ -39,21 +39,22 @@ El diseño presenta mi perfil como **Frontend Developer** a través de un hero p
 ```
 
 ## Vista previa
-![Vista previa de mi landing page](./assets/img/MyLandingPage.png)
+
 <img src="./assets/img/MyLandingPage.png" alt="Vista previa de mi landing page" width="600" height="auto">
----
+
+
 
 ## Demo en línea
 [Vercel](#)
 
----
+
 
 ## Autor
-**Gabycrem**  
+**Gabycrem®**  
 
 - GitHub: [Gabycrem](https://github.com/Gabycrem)  
 - LinkedIn: [Nazarena Macre](https://www.linkedin.com/in/macrenazarena/)  
 
 ---
 
-`Siempre construyendo, siempre aprendiendo.`
+<p align="center">`Siempre construyendo, siempre aprendiendo. -- GABYCREM®`</p>
